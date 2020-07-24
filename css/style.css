@@ -1,1 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+div {
+    background-color: white;
+    float: left;
+    width: 120px;
+}
+
+div.one{
+    width: 30%;
+    height: 200px;
+    float: left;
+    margin: 80px 20px 20px 20px;
+    background-color: gray;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+div.two{
+    width: 30%;
+    height: 200px;
+    float: left;
+    margin: 80px 20px 20px 20px;
+    background-color: gray;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+div.three {
+    width: 30%;
+    height: 200px;
+    float: left;
+    margin: 80px 20px 20px 20px;
+    background-color: gray;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+p {
+    padding: 35px 15px;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 1.75rem;
+    padding-top: 40px;
+    margin: auto;
+    width: 150px;
+}
+
+h2 {
+    border: 1px solid black;
+    font-size: 1.25rem;
+    padding: 5px;
+    float: right;
+    text-transform: uppercase;
+}
+
+h2.chicken {
+    background-color: red;
+    margin: auto;
+    width: 120px;
+    text-align: center;
+}
+
+h2.beef {
+    background-color: pink;
+    margin: auto;
+    width: 120px;
+    text-align: center;
+}
+
+h2.pork {
+    background-color: yellow;
+    margin: auto;
+    width: 120px;
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+}
+
+@media (min-width: 992px) and (max-width: 2500px) {
+    div.one {
+        float: left;
+        width: 30%;
+    }
+    div.two {
+        float: left;
+        width: 30%;
+    }
+    div.three {
+        float: left;
+        width: 30%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    div.one {
+        float: left;
+        width: 45%;
+    }
+
+    div.two {
+        float: left;
+        width: 45%;
+    }
+
+    div.three {
+        float: left;
+        width: 95%;
+    }
+}
+
+@media (max-width: 767px) {
+    div.one {
+        float: left;
+        width: 95%;
+    }
+
+    div.two {
+        float: left;
+        width: 95%;
+    }
+
+    div.three {
+        float: left;
+        width: 95%;
+    }
+}
